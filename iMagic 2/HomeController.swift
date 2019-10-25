@@ -25,11 +25,17 @@ class HomeController: UIViewController {
         if motion == .motionShake
         {
             print("Shake Gesture Detected")
-            //show some alert here
-            self.card.isHidden = false
-            UIViewPropertyAnimator(duration: 6, curve: .easeIn, animations: {
-                self.card.alpha = 1.0
-            }).startAnimation()
+            if (self.card.isHidden) {
+                self.card.isHidden = false
+                UIViewPropertyAnimator(duration: 6, curve: .easeIn, animations: {
+                    self.card.alpha = 1.0
+                }).startAnimation()
+            }
+            else {
+                UIViewPropertyAnimator(duration: 3, curve: .easeIn, animations: {
+                    self.card.alpha = 0
+                }).startAnimation()
+            }
         }
     }
 
