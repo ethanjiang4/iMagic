@@ -4,7 +4,7 @@ This is a small personal project that I try and work on from time to time. I use
 
 ## About
 
-iMagic comes with 4 tricks loaded and an AR feature is currently being worked on. Some of the tricks include guessing a spectator's card from seemingly random questions and another include text messaging the spectator's phone with their card. It's currently optimized for my iPhone X so you may have to make some changes to get it working on your phone. 
+iMagic comes with 4 tricks loaded and an AR feature that's currently being worked on. Some of the tricks include guessing a spectator's card from seemingly random questions and another include text messaging the spectator's phone with their card. It's currently optimized for my iPhone X so you may have to make some changes to get it working on your phone. 
 
 ## Demos
 
